@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.0.0.1</Version>
+    <Authors>Raniere Costa</Authors>
+    <Company>.Net Core</Company>
+    <Product>RabbitMQ .Net Core Client</Product>
+    <Description>A simple wrapper around RabbitMQ.Client encapsulating the boilerplate code.</Description>
+    <PackageProjectUrl>https://github.com/ranierecosta/simple-lib-messages-rabbitmq</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ranierecosta/simple-lib-messages-rabbitmq</RepositoryUrl>
+    <PackageReleaseNotes>10/02/2021: Initial version</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
