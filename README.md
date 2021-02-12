@@ -7,7 +7,7 @@ SimpleLibMessages Rabbitmq is a simple wrapper around RabbitMQ.Client encapsulat
 Use the Nuget package manager [Nuget](https://www.nuget.org/packages/SimpleLibMessages.RabbitMQ/) to install SimpleLibMessages.RabbitMQ
 
 ```bash
-Install-Package SimpleLibMessages.RabbitMQ -Version 0.0.0.1
+Install-Package SimpleLibMessages.RabbitMQ -Version 0.0.0.2
 ```
 
 ## Usage

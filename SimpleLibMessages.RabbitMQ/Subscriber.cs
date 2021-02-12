@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Plain.RabbitMQ
+namespace SimpleLibMessages.RabbitMQ
 {
     public class Subscriber : ISubscriber
     {

@@ -1,7 +1,7 @@
 ﻿using RabbitMQ.Client;
 using System;
 
-namespace Plain.RabbitMQ
+namespace SimpleLibMessages.RabbitMQ
 {
     public interface IConnectionProvider : IDisposable
     {

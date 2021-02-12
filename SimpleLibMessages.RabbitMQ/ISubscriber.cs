@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Plain.RabbitMQ
+namespace SimpleLibMessages.RabbitMQ
 {
     public interface ISubscriber : IDisposable
     {
